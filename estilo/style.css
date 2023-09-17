@@ -39,9 +39,9 @@ a.externo::after {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    height: 195px;
-    text-align: center;
+    min-height: 150px;
     padding-top: 40px;
+    text-align: center;
 
 }
 
@@ -60,8 +60,7 @@ header > p {
     font-size: 1.2em;
     color: white;
     max-width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 10px 50px 10px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
